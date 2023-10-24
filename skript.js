@@ -33,3 +33,13 @@ diver.style.background = `pink`;
 
 container.appendChild(diver);
 //-----
+
+//Exercise 4
+const h1er = document.createElement(`h1`);
+h1er.textContent = `I´m in an DIV`
+diver.appendChild(h1er);
+
+const para2 = document.createElement(`p`);
+para2.textContent = `ME TOO!`;
+diver.appendChild(para2);
+//-----
