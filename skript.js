@@ -24,3 +24,12 @@ head3.style.color = `blue`;
 
 container.appendChild(head3);
 //-----
+
+//Exercise 3
+const diver = document.createElement(`div`);
+
+diver.style.border = `2px solid black`;
+diver.style.background = `pink`;
+
+container.appendChild(diver);
+//-----
