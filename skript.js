@@ -15,3 +15,12 @@ para.style.color = `red`;
 
 container.appendChild(para);
 //-----
+
+//Exercise 2
+const head3 = document.createElement(`h3`);
+
+head3.textContent = `Hi, I´m an blue h3`;
+head3.style.color = `blue`;
+
+container.appendChild(head3);
+//-----
