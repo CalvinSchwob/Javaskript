@@ -55,3 +55,13 @@ button.addEventListener("click", () => {
     alert("Hello World");
 })
 //-----
+
+//Extended exercises js
+function alertFunction() {
+    alert("YAY! YOU DID IT!");
+}
+//Method 2 extend
+btn.onclick = alertFunction;
+//Method 3 extend
+btn.addEventListener("Click", alertFunction);
+//-----
