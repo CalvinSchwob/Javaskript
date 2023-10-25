@@ -44,29 +44,3 @@ para2.textContent = `ME TOO!`;
 diver.appendChild(para2);
 //-----
 
-//Button script method two
-const btn = document.querySelector("#btn");
-btn.onclick = () => alert("Hello World");
-//-----
-
-//Button script method three
-const button = document.querySelector("#button");
-button.addEventListener("click", () => {
-    alert("Hello World");
-})
-//-----
-
-//Extended exercises js
-function alertFunction() {
-    alert("YAY! YOU DID IT!");
-}
-//Method 2 extend
-btn.onclick = alertFunction;
-
-//Method 3 extend
-btn.addEventListener("Click", alertFunction);
-//-----
-
-btn.addEventListener("click", function(e) {
-    e.target.style.background = "blue";
-})
