@@ -43,3 +43,15 @@ const para2 = document.createElement(`p`);
 para2.textContent = `ME TOO!`;
 diver.appendChild(para2);
 //-----
+
+//Button Script option one
+const btn = document.querySelector("#btn");
+btn.onclick = () => alert("Hello World");
+//-----
+
+//Button script option two
+const button = document.querySelector("#button");
+button.addEventListener("click", () => {
+    alert("Hello World");
+})
+//-----
