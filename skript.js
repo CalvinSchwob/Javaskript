@@ -62,10 +62,11 @@ function alertFunction() {
 }
 //Method 2 extend
 btn.onclick = alertFunction;
+
 //Method 3 extend
 btn.addEventListener("Click", alertFunction);
 //-----
 
 btn.addEventListener("click", function(e) {
-    console.log(e.target);
+    e.target.style.background = "blue";
 })
