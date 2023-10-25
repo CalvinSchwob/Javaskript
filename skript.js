@@ -44,12 +44,12 @@ para2.textContent = `ME TOO!`;
 diver.appendChild(para2);
 //-----
 
-//Button Script option one
+//Button script method two
 const btn = document.querySelector("#btn");
 btn.onclick = () => alert("Hello World");
 //-----
 
-//Button script option two
+//Button script method three
 const button = document.querySelector("#button");
 button.addEventListener("click", () => {
     alert("Hello World");
