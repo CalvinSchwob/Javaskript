@@ -44,3 +44,10 @@ para2.textContent = `ME TOO!`;
 diver.appendChild(para2);
 //-----
 
+const buttons = document.querySelectorAll("button");
+
+buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+        alert(button.id);
+    })
+})
